@@ -33,6 +33,7 @@ end
 
 test = CashRegister.new 
 
+test.add_item()
 
 
 
