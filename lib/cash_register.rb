@@ -19,7 +19,9 @@ class CashRegister
     
   end 
   
-  
+  def add_item_to_total 
+    
+  end 
   
   
   
