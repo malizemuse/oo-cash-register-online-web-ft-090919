@@ -1,6 +1,6 @@
 class CashRegister 
   
-  attr_reader :total, :discount
+  attr_reader :total, :discount, :all_totals
   @@all_totals = []
   
   # Init method
@@ -35,7 +35,7 @@ test = CashRegister.new
 
 puts test.add_item(eggs, 1.00, 2)
 
-
+puts test.all_totals
 
 
 
