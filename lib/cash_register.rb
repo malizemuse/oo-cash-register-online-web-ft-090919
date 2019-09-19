@@ -15,7 +15,7 @@ class CashRegister
     @price = price 
     @quantity = quantity
     
-    @@all_totals <<
+    @@all_totals << self.add_item_to_total
     
   end 
   
