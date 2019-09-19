@@ -33,7 +33,8 @@ end
 
 test = CashRegister.new 
 
-test.add_item(eggs, 1.00, 2)
+puys test.add_item(eggs, 1.00, 2)
+
 
 
 
