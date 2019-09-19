@@ -9,7 +9,7 @@ class CashRegister
     @discount = discount
   end
   
-  # Sets title, price, quantity; 
+  # Sets title, price, quantity; Adds current total to total totals
   def add_item(title, price, quantity = 1)
     @title = title
     @price = price 
