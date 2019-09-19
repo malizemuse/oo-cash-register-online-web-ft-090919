@@ -3,7 +3,7 @@ class CashRegister
   attr_reader :total, :discount
   @@all_totals = []
   
-  
+  ## Init method
   def initialize(discount = 0)
     @total = 0 
     @discount = discount
@@ -14,9 +14,11 @@ class CashRegister
     @price = price 
     @quantity = quantity
     
-    @total += @price*quantity
+    @@all_totals <<
     
   end 
+  
+  
   
   
   
