@@ -33,7 +33,7 @@ end
 
 test = CashRegister.new 
 
-puts test.add_item(eggs, 1.00, 2)
+puts test.add_item("eggs", 1.00, 2)
 
 puts test.all_totals
 
