@@ -31,6 +31,8 @@ end
 
 # TEST CODE 
 
+test = CashRegister. 
+
 
 
 
