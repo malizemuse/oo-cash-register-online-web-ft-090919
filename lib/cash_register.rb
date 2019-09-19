@@ -9,7 +9,7 @@ class CashRegister
     @discount = discount
   end
   
-  
+  # Sets title, price, quantity; 
   def add_item(title, price, quantity = 1)
     @title = title
     @price = price 
