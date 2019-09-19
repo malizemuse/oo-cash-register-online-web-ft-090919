@@ -31,9 +31,7 @@ end
 
 # TEST CODE 
 
-test = CashRegister. 
-
-
+test = CashRegister.new 
 
 
 
