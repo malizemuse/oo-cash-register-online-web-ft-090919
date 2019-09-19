@@ -20,7 +20,7 @@ class CashRegister
   end 
   
   def add_item_to_total 
-    @@all_totals
+    @@all_totals << @price*@quantity
   end 
   
   
